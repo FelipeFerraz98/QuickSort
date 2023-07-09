@@ -18,7 +18,7 @@ futures 3.0.5
 
 2. Make sure you have Python 3.x and futures 3.0.5 installed on your system.
 
-3. Run the main.py file using the following command:
+3. Run the main.py file in QuickSortProgram folder using the following command:
 
        python main.py
 
