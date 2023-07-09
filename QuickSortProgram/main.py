@@ -4,21 +4,21 @@ import sequential_algorithm as sq # Import module "sequential_algorithm" and app
 from interactions import results, clear # Import "results and clean" from the interacoes module to obtain algorithm comparisons and movements
 
 # Defining the paths of the input files containing the numbers to be sorted
-thousand_numbers = r'./Files/1000RandomNumbers.txt'
-ten_thousand_numbers = r'./Files/10000RandomNumbers.txt'
-hundred_thousand_numbers = r'./Files/100000RandomNumbers.txt'
+THOUSAND_NUMBERS = r'./Files/1000RandomNumbers.txt'
+TEN_THOUSAND_NUMBERS = r'./Files/10000RandomNumbers.txt'
+HUNDRED_THOUSAND_NUMBERS = r'./Files/100000RandomNumbers.txt'
 
 # Opening and reading the contents of the file "1000NumerosAleatorios.txt"
-with open(thousand_numbers, "r") as file:
-     thousand_numbers = file.readlines()
+with open(THOUSAND_NUMBERS, "r") as file:
+     THOUSAND_NUMBERS = file.readlines()
 
 # Opening and reading the contents of the file "10000NumerosAleatorios.txt"
-with open(ten_thousand_numbers, "r") as file:
-     ten_thousand_numbers = file.readlines()
+with open(TEN_THOUSAND_NUMBERS, "r") as file:
+     TEN_THOUSAND_NUMBERS = file.readlines()
 
 # Opening and reading the contents of the file "100000NumerosAleatorios.txt"
-with open(hundred_thousand_numbers, "r") as file:
-     hundred_thousand_numbers = file.readlines()
+with open(HUNDRED_THOUSAND_NUMBERS, "r") as file:
+     HUNDRED_THOUSAND_NUMBERS = file.readlines()
 
 
 def parallel(numbers):
@@ -72,8 +72,8 @@ def execution(list):
 
 # Performing ordering of numbers in different input sizes
 print("-=" * 15, "THOUSAND NUMBERS", "=-" * 15)
-execution(thousand_numbers)
+execution(THOUSAND_NUMBERS)
 print("\n", "-=" * 15, "TEN THOUSAND NUMBERS", "=-" * 15)
-execution(ten_thousand_numbers)
+execution(TEN_THOUSAND_NUMBERS)
 print("\n", "-=" * 15, "ONE HUNDRED THOUSAND NUMBERS", "=-" * 15)
-execution(hundred_thousand_numbers)
+execution(HUNDRED_THOUSAND_NUMBERS)
