@@ -10,8 +10,8 @@ The program has two main features:
 
 ## Requirements
 
-Python 3.x
-futures 3.0.5
+* Python 3.x
+* futures 3.0.5
 
 ## How to use
 1. Download or clone the program repository.
@@ -30,6 +30,7 @@ futures 3.0.5
 * sequential_algorithm.py: Contains the quicksort algorithm to order the lists of numbers provided in "Files" sequentially.
 * interactions.py: Contains functions to count movements and comparisons performed in the quicksort algorithm for sorting.
 * Files folder: Folder containing three .txt files containing out-of-order numbers for the quicksort algorithm to sort.
+* Requirements.txt: It is a file that contains the requirements to use in the pip installation
 
 ## Contribution
 Contributions are welcome! If you encounter an issue, have a suggestion, or want to improve the code, feel free to open an issue or submit a pull request.
